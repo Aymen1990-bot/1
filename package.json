@@ -4,7 +4,8 @@
   "description": "Description of your project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -18,3 +19,4 @@
   "author": "",
   "license": "ISC"
 }
+
